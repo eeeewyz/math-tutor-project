@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep only documentation and tiny samples in git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
+!data/samples/
+!data/samples/**
+
+# Model artifacts / checkpoints
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Experiment trackers
+wandb/
+mlruns/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
