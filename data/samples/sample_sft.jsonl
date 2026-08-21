@@ -1,0 +1,1 @@
+{"messages":[{"role":"system","content":"Solve the math problem clearly. Show the essential reasoning and give the final answer clearly."},{"role":"user","content":"A notebook costs $12 and is discounted by 25%. What is the sale price?"},{"role":"assistant","content":"A 25% discount on $12 is $3. Subtract the discount from the original price: $12 - $3 = $9. Final answer: $9."}]}
